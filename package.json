@@ -1,0 +1,27 @@
+{
+  "name": "starfall",
+  "version": "0.1.0",
+  "description": "A simple Type Script game",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",  "start": "webpack --watch & live-server --port=8085"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devPermutations/typescriptPhaser.git"
+  },
+  "author": "Virgil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devPermutations/typescriptPhaser/issues"
+  },
+  "homepage": "https://github.com/devPermutations/typescriptPhaser#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "phaser": "^3.18.1",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
+  }
+}
